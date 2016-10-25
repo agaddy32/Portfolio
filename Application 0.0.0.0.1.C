@@ -1,7 +1,7 @@
 // An oroboros C++ program to show understanding of Linux system administration.
 // An attempt has been made to leverage common Linux commands to perform as many functions as possible
 // Must be compiled with a name in the format of "Application 0.0.0.0.1" but the part which appears as a version number can contain any characters.
-// Austin Gaddy
+// Austin Gaddy.
 
 #include <iostream>
 #include <stdlib.h>
