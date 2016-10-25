@@ -69,10 +69,10 @@ int main(int argc, char *argv[])
 	//Show contents of folder.
 	system("ls -l | grep -i Application");
 
-	//Show running file TOO SLOW.
-	string buffer = "lsof | grep -i \"";
-	buffer.append(filenold);
-	buffer.append("\"");
+	//Show running file, I deprecated this feature as it is too slow in runtime (lsof creates a large amount of data and takes a while to complete, this caused my program to go very slow.
+	//string buffer = "lsof | grep -i \"";
+	//buffer.append(filenold);
+	//buffer.append("\"");
 	//system(buffer.c_str());
 
 	//Show addressing.
